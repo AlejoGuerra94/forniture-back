@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-  res.render("refreshToken");
+  res.json({ message: "Refresh Token endpoint" });
 });
 
 module.exports = router;

@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use('/api/login', require('./Routes/login'));
 app.use('/api/signup', require('./Routes/signup'));
-app.use('/api/signout', require('./Routes/singout'));
+app.use('/api/signout', require('./Routes/signout'));
 app.use('/api/todos', require('./Routes/todos'));
 app.use('/api/user', require('./Routes/user'));
 app.use('/api/refresh-token', require('./Routes/refreshToken'));

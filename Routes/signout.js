@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-  res.render("signout");
+  res.json({ message: "singout" });
 });
 
 module.exports = router;
